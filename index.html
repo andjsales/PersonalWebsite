@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="app.css">
+        <script src="https://kit.fontawesome.com/3f6bbba5c5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <!-- MARK: NAVIGATION  -->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header"> Home </a></li>
+                        <li><a href="#about"> About </a></li>
+                        <li><a href="#portfolio"> Portfolio </a></li>
+                        <li><a href="#contact"> Contact </a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <h1>Hi, I'm Andrew. <br>Have a good day!</h1>
+                    <p><i>Software Engineer</i></p>
+                </div>
+            </div>
+        </div>
+        <!-- MARK: ABOUT ME -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-column-1">
+                        <img src="images/user.png">
+                    </div>
+                    <div class="about-column-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            As a graduate from the University of Oklahoma, my time there has prepared me by developing
+                            skills that I still value to this day. These include being able and willing to figure things
+                            out when needed and understanding when to seek help, critical thinking, communication,
+                            trying new things, and actively learning with an open mind. I believe that these are all
+                            important traits that lead to the gateway of growth. I hope to follow through with my
+                            convictions and surround myself with a like-minded team—one that pushes each other to learn
+                            new things and work efficiently with each other. During my time in college, I was
+                            responsible for many tasks and assignments that needed to be turned in in a timely manner.
+                            In group work settings, cooperation, understanding, and teamwork were always the key traits
+                            that I made sure were present in order for everybody to be successful, which is something I
+                            hope to carry into the workplace if given the opportunity.
+                        </p>
+                        <br>
+                        <p>
+                            My resume illustrates a diverse career trajectory and a specialized niche in healthcare,
+                            complemented by coding knowledge and training from the Springboard software engineering
+                            bootcamp. There, I mastered both frontend (HTML/CSS, JavaScript ES6+, ReactJS, jQuery,
+                            Axios) and backend (Node.js, Express, Python, Flask, SQL, PostgreSQL, RESTful APIs)
+                            technologies, alongside testing with Jasmine. I hope to put the knowledge I learned into
+                            good use towards the benefit of the company.
+                        </p>
+                        <br>
+                        <p>
+                            I thrive in an environment that strives to always learn more–one that focuses on
+                            self-improvement, not just as individuals, but collaboratively as a team as well. Treating
+                            every day at the workplace to the fullest, especially when opportunities present themselves
+                            is a motto that I personally cherish. I am confident that my skills and eagerness to create
+                            align perfectly with the goals of [Company's Name], and that joining would be a good fit for
+                            learning experiences towards developing the educational background that I currently have as
+                            I am finally able to advance my career in the field of medical technology!
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">
+                                Skills
+                            </p>
+                            <p class="tab-links" onclick="opentab('experience')">
+                                Experience
+                            </p>
+                            <p class="tab-links" onclick="opentab('education')">
+                                Education
+                            </p>
+                        </div>
+                        <!-- MARK: Skills -->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Front-End</span>
+                                    <br>HTML/CSS, JavaScript, ReactJS, jQuery, and Axios
+                                </li>
+                                <li>
+                                    <span>Back-End</span>
+                                    <br>Node.js, Express, Python, Flask, SQL, PostgreSQL, and RESTful APIs
+                                </li>
+                                <li>
+                                    <span>Testing</span>
+                                    <br>Jasmine
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- MARK: Experience  -->
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>N/A</span>
+                                    <br>Hackathons
+                                </li>
+                                <li>
+                                    <span>N/A</span>
+                                    <br>Career Fairs
+                                </li>
+                                <li>
+                                    <span>Software Engineering Career Track Bootcamp</span>
+                                    <br>Experienced coding principles through Mentor
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- MARK: Education  -->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2023 - 2024</span>
+                                    <br>Springboard's Software Engineering Career Track Certificate
+                                </li>
+                                <li>
+                                    <span>2022 - 2023</span>
+                                    <br>Collin College
+                                </li>
+                                <li>
+                                    <span>2018 - 2022</span>
+                                    <br>University of Oklahoma
+                                </li>
+                                <li>
+                                    <span>2014 - 2018</span>
+                                    <br>Centennial High School
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MARK: SERVICES -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">What I Do</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-eye"></i>
+                        <h2>Front-End</h2>
+                        <p>
+                            I specialize in HTML/CSS for creating stunning and responsive designs, JavaScript for
+                            dynamic interactivity, and ReactJS for building efficient and scalable user interfaces. With
+                            jQuery, I ensure seamless DOM manipulation, while Axios handles all your asynchronous data
+                            fetching needs.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-terminal"></i>
+                        <h2>Back-End</h2>
+                        <p>
+                            I can offer backend development services to create robust and efficient applications. With
+                            Node.js and Express, I build fast and scalable server-side solutions. My proficiency in
+                            Python and Flask allows me to develop secure and maintainable web applications. Utilizing
+                            SQL and PostgreSQL, I ensure reliable and efficient database management. I specialize in
+                            creating RESTful APIs, enabling seamless communication between your frontend and backend
+                            systems. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-code-compare"></i>
+                        <h2>Testing</h2>
+                        <p>
+                            If there are concerns within the reliability and quality of your applications, with my
+                            knowledge in testing services, I specialize in using Jasmine for efficient and comprehensive
+                            JavaScript testing, covering both unit testing and integration testing. With a focus on
+                            behavior-driven development (BDD), I create robust test suites to catch bugs early and
+                            ensure your code performs as expected.
+                        </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MARK: PORTFOLIO -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Personal Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>Simple Calculator</h3>
+                            <p>Building a simple calculator. <br> (Will be done in the future) </p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>TLDRthis</h3>
+                            <p>One of the projects that I created during my time at Springboard.</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Blogly</h3>
+                            <p>Ever come across a video, movie, song, or even a pirated TV series that you have been
+                                trying to watch? The only problem is that it is in a foreign language and there are no
+                                english subtitles in the video player. This is where my application, Dialogflow, comes
+                                in. Simply paste the URL of the service you are streaming, and any foreign language that
+                                is detected will be translated accordingly!</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+
+        <!-- MARK: CONTACT -->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p> <i class="fa-solid fa-paper-plane"></i>andjsales@gmail.com
+                        </p>
+                        <p><i class="fa-solid fa-square-phone"></i>+1 (469) 471-5490
+                        </p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/andrewjonsales/"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/andjsales"><i class="fab fa-github"></i></a>
+                            <a href="https://www.facebook.com/andrew.sales.311"><i class="fab fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/andrwsales/"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <a href="images/Resume (PDF).pdf" class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Created by Andrew Sales</p>
+        </div>
+
+        <!-- MARK: JavaScript -->
+
+        <script>
+            let tablinks = document.getElementsByClassName("tab-links");
+            let tabcontents = document.getElementsByClassName("tab-contents");
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+
+        <script>
+            // code for sidemenu
+            let sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+    </body>
+
+</html>
