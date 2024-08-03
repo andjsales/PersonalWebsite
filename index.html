@@ -243,7 +243,7 @@
                         <a href="images/Resume (PDF).pdf" class="btn btn2">Download Resume</a>
                     </div>
                     <div class="contact-right">
-                        <form>
+                        <form id="contact-form" action="https://getform.io/f/brolxvra" method="POST">
                             <input type="text" name="Name" placeholder="Your Name" required>
                             <input type="email" name="Email" placeholder="Your Email" required>
                             <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
@@ -260,6 +260,7 @@
         <!-- MARK: JavaScript -->
 
         <script>
+
             let tablinks = document.getElementsByClassName("tab-links");
             let tabcontents = document.getElementsByClassName("tab-contents");
             function opentab(tabname) {
@@ -284,6 +285,16 @@
                 sidemenu.style.right = "-200px";
             }
         </script>
+
+        <script>
+            // code for clearing contact form
+            document.getElementById('contact-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                this.submit();
+                this.reset();
+            });
+        </script>
+
     </body>
 
 </html>
