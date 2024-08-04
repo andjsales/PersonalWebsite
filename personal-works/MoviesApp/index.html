@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	style="display: flex; justify-content: center; align-items: center">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			.watchlist th,
+			.watchlist td {
+				width: 33.33%;
+				text-align: center;
+				align-content: center;
+			}
+		</style>
+		<title>My Movie List</title>
+	</head>
+	<body>
+		<h1 style="font-size: 50pt">Movie Watchlist</h1>
+		<hr />
+		<form action="type" class="form">
+			<br />
+			Movie:
+			<input type="text" id="movieinput" />
+			<input
+				type="number"
+				id="ratinginput"
+				min="0"
+				max="10"
+				step="0.5"
+				required />
+			<br />
+			<br />
+			<br />
+			<button id="button" type="submit">Add Movie</button>
+		</form>
+		<br />
+		<hr />
+		<table class="watchlist">
+			<thead>
+				<tr>
+					<th scope="col" id="movieoutput">Movie</th>
+					<th scope="col" id="ratingoutput">Rating</th>
+					<th id="delete">Remove</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+		<script
+			src="https://code.jquery.com/jquery-3.4.1.js"
+			integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+			crossorigin="anonymous"></script>
+		<script src="app.js"></script>
+	</body>
+</html>
