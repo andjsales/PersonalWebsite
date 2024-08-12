@@ -405,6 +405,9 @@ form .btn2 {
 	background: #607c8e;
 	/* border: 1px solid #d3d3d3; */
 }
+a.btn.btn2 {
+	margin-left: 0px;
+}
 
 .contact-right form {
 	width: 100%;
