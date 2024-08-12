@@ -8,7 +8,7 @@ html {
 	scroll-behavior: smooth;
 }
 body {
-	background: #080808;
+	background: #152238;
 	color: #fff;
 }
 
@@ -49,7 +49,7 @@ nav ul li a::after {
 	content: "";
 	width: 0;
 	height: 3px;
-	background: #ff004f;
+	background: #99a8c5;
 	position: absolute;
 	left: 0;
 	bottom: -6px;
@@ -121,7 +121,7 @@ nav ul li a:hover::after {
 	content: "";
 	width: 0;
 	height: 3px;
-	background: #8a74d8;
+	background: #99a8c5;
 	position: absolute;
 	left: 0;
 	bottom: -8px;
@@ -138,8 +138,9 @@ nav ul li a:hover::after {
 }
 
 .tab-contents ul li span {
-	color: #b54769;
-	font-size: 14px;
+	color: #99a8c5;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .tab-contents {
@@ -168,11 +169,11 @@ nav ul li a:hover::after {
 	font-size: 13px;
 	font-weight: 300;
 	border-radius: 10px;
-	transition: transform 0.5s;
+	transition: transform 0.8s;
 }
 
 .services-list div:hover {
-	background: #ff004f;
+	background: #607c8e;
 	transform: translateY(-10px);
 }
 
@@ -228,7 +229,7 @@ nav ul li a:hover::after {
 .layer {
 	width: 100%;
 	height: 0;
-	background: linear-gradient(rgba(0, 0, 0, 0.6), #ff004f);
+	background: linear-gradient(rgba(0, 0, 0, 0.6), #4c5c68);
 	border-radius: 10px;
 	position: absolute;
 	left: 0;
@@ -255,7 +256,7 @@ nav ul li a:hover::after {
 }
 
 .layer a {
-	color: #ff004f;
+	color: #99a8c5;
 	text-decoration: none;
 	font-size: 18px;
 	line-height: 60px;
@@ -278,7 +279,7 @@ nav ul li a:hover::after {
 	display: block;
 	margin: 50px auto;
 	width: fit-content;
-	border: 1px solid #ff004f;
+	border: 1px solid #d3d3d3;
 	padding: 14px 50px;
 	border-radius: 6px;
 	text-decoration: none;
@@ -287,7 +288,7 @@ nav ul li a:hover::after {
 }
 
 .btn:hover {
-	background: #ff004f;
+	background: #99a8c5;
 }
 
 /* MARK: CONTACT  */
@@ -346,8 +347,6 @@ form .btn2 {
 	cursor: pointer;
 } */
 
-/* Other CSS rules remain the same */
-
 #contact {
 	padding: 80px 0;
 }
@@ -366,7 +365,7 @@ form .btn2 {
 
 .contact-left p i {
 	margin-right: 15px;
-	color: #ff004f;
+	color: #99a8c5;
 	font-size: 25px;
 }
 
@@ -378,25 +377,37 @@ form .btn2 {
 	text-decoration: none;
 	font-size: 30px;
 	margin-right: 15px;
-	color: #ababab;
+	color: #99a8c5;
 	display: inline-block;
 	transition: transform 0.5s;
 }
 
 .social-icons a:hover {
-	color: #ff004f;
+	color: #99a8c5;
 	transform: translateY(-5px);
 }
-
-.btn.btn2 {
+.btn2 {
 	display: inline-block;
-	background: #ff004f;
+	background: #4e5a65;
+	display: block;
+	margin: 50px auto;
+	width: fit-content;
+	border: 1px solid #4e5a65;
+	padding: 14px 50px;
+	border-radius: 6px;
+	text-decoration: none;
+	color: #fff;
+	transition: background 0.5s;
+}
+
+.btn2:hover {
+	background: #607c8e;
+	/* border: 1px solid #d3d3d3; */
 }
 
 .contact-right form {
 	width: 100%;
 }
-
 form input,
 form textarea {
 	width: 100%;
@@ -409,13 +420,30 @@ form textarea {
 	font-size: 18px;
 	border-radius: 6px;
 }
-
-form .btn2 {
+/* form .btn2 {
 	padding: 14px;
 	font-size: 18px;
 	margin-top: 20px;
 	cursor: pointer;
+} */
+button.btn2 {
+	display: inline-block;
+	background: #4e5a65;
+	display: block;
+	margin: 50px auto;
+	width: fit-content;
+	/* border: 1px solid #4e5a65; */
+	padding: 14px 50px;
+	border-radius: 6px;
+	text-decoration: none;
+	color: #fff;
+	transition: background 0.5s;
 }
+button.btn2:hover {
+	background: #607c8e;
+	cursor: pointer;
+}
+
 .copyright {
 	width: 100%;
 	text-align: center;
@@ -424,6 +452,7 @@ form .btn2 {
 	font-weight: 300;
 	margin-top: 20px;
 	font-style: italic;
+	font-size: x-small;
 }
 /* MARK: mobile screens  */
 nav .fas {
@@ -446,7 +475,7 @@ nav .fas {
 		font-size: 25px;
 	}
 	nav ul {
-		background-color: #ff004f;
+		background-color: #e9ebee;
 		position: fixed;
 		top: 0;
 		right: -200px;
