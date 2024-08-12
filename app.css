@@ -29,7 +29,7 @@ nav {
 }
 
 .logo {
-	width: 100px;
+	width: 80px;
 }
 
 nav ul li {
@@ -242,7 +242,7 @@ nav ul li a:hover::after {
 	padding: 0 40px;
 	text-align: center;
 	font-size: 14px;
-	transition: height 0.5s;
+	transition: height 0.8s;
 }
 
 .layer h3 {
