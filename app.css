@@ -1,8 +1,12 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "Poppins", sans-serif;
+	font-family: "Consolas", Courier, monospace;
 	box-sizing: border-box;
+}
+p,
+li {
+	font-family: "Source Code Pro";
 }
 html {
 	scroll-behavior: smooth;
@@ -210,14 +214,16 @@ nav ul li a:hover::after {
 .work-list {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-gap: 20px;
+	grid-gap: 50px;
 	margin-top: 50px;
 }
 
 .work {
-	border-radius: 15px;
+	border-radius: 10px;
 	position: relative;
-	overlay: hidden;
+	/* overlay: hidden; */
+	background-color: #607c8e;
+	width: 100%;
 }
 
 .work img {
@@ -225,6 +231,7 @@ nav ul li a:hover::after {
 	border-radius: 2px;
 	display: block;
 	transition: transform 0.5s;
+	scale: 0.7;
 }
 
 .layer {
@@ -354,6 +361,7 @@ form .btn2 {
 
 .contact-left {
 	flex-basis: 35%;
+	color: #ababab;
 }
 
 .contact-right {
