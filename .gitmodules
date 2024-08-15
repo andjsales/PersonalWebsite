@@ -4,10 +4,3 @@
 [submodule "personal-works/TLDRthis"]
 	path = personal-works/TLDRthis
 	url = git@github.com:andjsales/TLDRthis.git
-[submodule "personal_works/ForexConverter"]
-	path = personal_works/ForexConverter
-	url = git@github.com:andjsales/ForexConverter.git
-[submodule "personal_works/TLDRthis"]
-    path = personal_works/TLDRthis
-    url = git@github.com:andjsales/TLDRthis.git
-
