@@ -3,7 +3,7 @@
 	url = https://github.com/andjsales/ConnectFour.git
 [submodule "personal-works/ForexConverter"]
 	path = personal-works/ForexConverter
-	url = git@github.com:andjsales/ForexConverter.git
+	url = https://github.com/andjsales/ForexConverter.git
 [submodule "personal-works/TLDRthis"]
 	path = personal-works/TLDRthis
 	url = https://github.com/andjsales/CapstoneProject1.git
