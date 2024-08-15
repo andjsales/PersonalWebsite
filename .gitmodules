@@ -1,0 +1,9 @@
+[submodule "personal-works/ConnectFourOO"]
+	path = personal-works/ConnectFourOO
+	url = https://github.com/andjsales/ConnectFour.git
+[submodule "personal-works/ForexConverter"]
+	path = personal-works/ForexConverter
+	url = https://github.com/yourusername/ForexConverter.git
+[submodule "personal-works/TLDRthis"]
+	path = personal-works/TLDRthis
+	url = https://github.com/andjsales/CapstoneProject1.git
