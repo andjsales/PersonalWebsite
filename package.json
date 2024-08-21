@@ -1,5 +1,5 @@
 {
-	"name": "personalwebsite",
+	"name": "personal-web",
 	"version": "1.0.0",
 	"description": "My personal portfolio website to show recruitment teams.",
 	"main": "server.js",
